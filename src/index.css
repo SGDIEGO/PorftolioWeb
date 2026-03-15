@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+
+:root {
+  --bg-main: #f5f5f0;
+  --bg-gradient: radial-gradient(circle at 15% 10%, #ffe3bb 0%, transparent 30%),
+    radial-gradient(circle at 90% 5%, #a7d7cd 0%, transparent 26%),
+    radial-gradient(circle at 70% 85%, #d3d7ff 0%, transparent 32%);
+
+  --surface: rgba(255, 255, 255, 0.72);
+  --surface-raised: rgba(255, 255, 255, 0.86);
+  --text-main: #1f2321;
+  --text-muted: #4f5955;
+
+  --accent: #0a8a73;
+  --accent-700: #086f5d;
+  --accent-contrast: #f3fffb;
+
+  --border: rgba(31, 35, 33, 0.12);
+  --border-strong: rgba(31, 35, 33, 0.22);
+  --chip-bg: rgba(10, 138, 115, 0.08);
+
+  --shadow-soft: 0 14px 30px rgba(26, 33, 30, 0.08);
+}
+
+:root[data-theme='dark'] {
+  --bg-main: #0f1418;
+  --bg-gradient: radial-gradient(circle at 15% 10%, #24333a 0%, transparent 32%),
+    radial-gradient(circle at 88% 8%, #1f3b35 0%, transparent 30%),
+    radial-gradient(circle at 70% 80%, #292746 0%, transparent 35%);
+
+  --surface: rgba(20, 28, 33, 0.72);
+  --surface-raised: rgba(24, 32, 38, 0.88);
+  --text-main: #e7f1ef;
+  --text-muted: #b2c0bc;
+
+  --accent: #32b09a;
+  --accent-700: #4dcab2;
+  --accent-contrast: #08231e;
+
+  --border: rgba(231, 241, 239, 0.14);
+  --border-strong: rgba(231, 241, 239, 0.3);
+  --chip-bg: rgba(50, 176, 154, 0.15);
+
+  --shadow-soft: 0 14px 30px rgba(0, 0, 0, 0.35);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Archivo', 'Segoe UI', sans-serif;
+  color: var(--text-main);
+  background: var(--bg-main);
+  background-image: var(--bg-gradient);
+  background-attachment: fixed;
+  line-height: 1.5;
+  transition: background-color 260ms ease, color 260ms ease;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--text-main);
+  font-family: 'Space Grotesk', 'Segoe UI', sans-serif;
+}
+
+a {
+  color: inherit;
+}

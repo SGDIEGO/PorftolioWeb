@@ -1,0 +1,20 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#0f172a"/>
+  <rect x="48" y="48" width="1104" height="534" rx="28" fill="url(#paint0_linear)"/>
+  <circle cx="970" cy="170" r="130" fill="#38bdf8" fill-opacity="0.18"/>
+  <circle cx="1040" cy="120" r="56" fill="#f59e0b" fill-opacity="0.28"/>
+  <circle cx="180" cy="500" r="150" fill="#22c55e" fill-opacity="0.15"/>
+  <text x="96" y="152" fill="#e2e8f0" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">PORTAFOLIO PROFESIONAL</text>
+  <text x="96" y="258" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="62" font-weight="800">Diego Alonso</text>
+  <text x="96" y="328" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="62" font-weight="800">Segura Gutierrez</text>
+  <text x="96" y="404" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="600">Desarrollador Full Stack | Automatizacion | Soluciones Digitales</text>
+  <text x="96" y="476" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="26">React, TypeScript, Node.js, analisis de datos y consultoria tecnica</text>
+  <rect x="96" y="518" width="268" height="56" rx="28" fill="#38bdf8"/>
+  <text x="130" y="554" fill="#082f49" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800">sgdiego.github.io</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="48" y1="48" x2="1152" y2="582" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827"/>
+      <stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+</svg>
